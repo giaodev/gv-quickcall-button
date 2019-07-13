@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Call Button\n"
+"POT-Creation-Date: 2018-08-02 09:50+0700\n"
+"PO-Revision-Date: 2018-08-02 09:50+0700\n"
+"Last-Translator: \n"
+"Language-Team: Giao\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class.quickcall-setting.php:30
+#: includes/class.quickcall-setting.php:55
+msgid "Quick Call Button"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:31
+msgid "Quick Call Seting"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:57
+msgid "Config Quick Call Button For Front End"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:63
+msgid "Phone"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:66
+msgid "Enter your phone here"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:73
+msgid "Color"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:78
+msgid "Select color for background button"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:85
+msgid "Show in"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:92
+msgid "Show button call for device"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:99
+msgid "Position"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:102
+msgid "Button Left"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:103
+msgid "Button Right"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:105
+msgid "Select Left or Right for call button"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:113
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class.quickcall-setting.php:118
+msgid "Custom CSS for button call if you know code"
+msgstr ""
