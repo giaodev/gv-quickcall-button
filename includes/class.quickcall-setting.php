@@ -62,7 +62,7 @@ class giaovu_setting
             'phone',
             __('Phone', 'qcgiaovu'),
             function () {
-                printf('<input type="number" name="quickcall_name[phone]" class="regular-text" value="' . self::$option['phone'] . '" />');
+                printf('<input type="number" name="quickcall_name[phone]" class="regular-text" value="' . self::$option['phone'] . '" placeholder="0888123456" />');
                 printf('<p class="description">%s</p>',__('Enter your phone here','qcgiaovuc'));
             },
             'quickcall_page',

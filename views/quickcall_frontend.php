@@ -5,7 +5,7 @@
         border-radius: 10px;
         display: none;
         background: <?php echo $color ?>;
-        bottom: 240px;
+        bottom: 80px;
         <?php echo ($position == 1) ? 'left' : 'right' ?>: 120px;
         position: fixed;
         text-decoration: none;
@@ -34,7 +34,7 @@
     }
 
     #popup__toggle {
-        bottom: 240px;
+        bottom: 80px;
         <?php echo ($position == 1) ? 'left' : 'right' ?>: 10px;
         position: fixed;
         outline-style:none;
@@ -354,7 +354,7 @@ if($show_in == 1){
 }
 ?>
 ">
-    <a href="tel:<?php echo $phone; ?>" id="popup__toggle" onclick="return true;">
+    <a href="tel:<?php echo ($phone != NULL) ? $phone : "0888123456"; ?>" id="popup__toggle" onclick="return true;">
         <div class="circlephone" style="transform-origin: center;"></div>
         <div class="circle-fill" style="transform-origin: center;"></div>
         <div class="img-circle" style="transform-origin: center;"><div class="img-circleblock" style="transform-origin: center;"></div></div>
