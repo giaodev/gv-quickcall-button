@@ -116,7 +116,7 @@
         -webkit-box-sizing: content-box;
         width: 72px;
         height: 72px;
-        background-image: url(<?php echo GIAOVU_URL."asset/dienthoai.png" ?>);
+        background-image: url(<?php echo ($position == 1) ? GIAOVU_URL."asset/dienthoai.png" : GIAOVU_URL."asset/dienthoai-1.png"; ?>);
         background-position: center center;
         background-repeat: no-repeat;
         animation-name: tossing;

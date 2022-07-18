@@ -45,6 +45,12 @@ class giaovu_setting
 
     public static function createPage()
     {
+        self::$option = get_option('quickcall_name');
+        $phone = self::$option['phone'];
+        $color = self::$option['color'];
+        $show_in = self::$option['show_in'];
+        $position = self::$option['position'];
+        $custom_css = self::$option['custom_css'];
         require(GIAOVU_DIR . 'views/setting_form.php');
     }
 
